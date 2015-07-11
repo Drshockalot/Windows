@@ -10,6 +10,17 @@
       <Platform>Win32</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\Beginner%27s Luck\Hookah\Hookah\main.cpp" />
+    <ClCompile Include="..\..\..\Beginner%27s Luck\Hookah\Hookah\mainwindow.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\Beginner%27s Luck\Hookah\Hookah\mainwindow.h" />
+    <ClInclude Include="..\..\..\Beginner%27s Luck\Hookah\Hookah\resource.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="..\..\..\Beginner%27s Luck\Hookah\Hookah\Hookah.rc" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{8EEE1DED-B90E-47FD-9B9B-3B1067659208}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
@@ -77,9 +88,6 @@
       <OptimizeReferences>true</OptimizeReferences>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClCompile Include="..\..\..\..\Beginner%27s Luck\Beginner%27s Luck\Hookah\Hookah\main.cpp" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
